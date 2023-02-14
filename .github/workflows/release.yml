@@ -52,3 +52,7 @@ jobs:
 
       - name: Compile
         run: make assemble
+      
+      - name: release
+        run: make release
+      
